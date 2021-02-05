@@ -148,7 +148,7 @@ export function ContactForm() {
 
         $loader.classList.remove('none')
 
-        fetch('https://formsubmit.co/ajax/felocorrea18@gmail.com', {
+        fetch('https://formsubmit.co/ajax/yourmail@gmail.com', {
           method: 'POST',
           body: new FormData(e.target)
         })
